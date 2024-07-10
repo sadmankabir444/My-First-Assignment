@@ -1,0 +1,192 @@
+
+/* Banner styles */
+
+.banner{
+    background-image: url('../assets/Hero-bg.png');
+    height: 650px;
+    width: auto;
+    background-position: center;
+    
+}
+.banner{
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.banner-profile-pic{
+    align-items: center;
+    padding-left: 40%;
+    margin-top: 40px;
+}
+.banner-title{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: bolder;
+    color: #131933;
+}
+.banner-content{
+    
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.banner-description{
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+    padding-left: 300px;
+    padding-top: 0%;
+    padding-right: 250px;
+    color: #131933;
+    margin-top: 0%;
+}
+.btn-primary{
+    background-color: rgba(13, 19, 33, 1);
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+/* why web development sector */
+
+.full-second-part{
+    border-radius: 10px;
+    padding: 120px 140px;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.08);
+    margin: 80px 70px;
+}
+.second-part-title{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.second-title{
+    font-weight: bolder;
+}
+.coding{
+    font-family: monospace;
+    display: flex;
+    margin-right: 420px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.coding-description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.coding-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    box-shadow: rgba(255, 255, 255, 1);
+}
+.layer-1{
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+
+
+.coding-btn{
+    padding: 10px 5px;
+    font-family: monospace;
+    align-items: center;
+}
+.web-system{
+    font-family: monospace;
+    text-align: center;
+    /* margin-right: 20px; */
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 350px;
+    padding-bottom: 40px;
+}
+.web-description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.group-3{
+    position: absolute;
+    margin-right: 630px;
+    padding-left: 50px;
+}
+.web-system-img{
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    box-shadow: rgba(255, 255, 255, 1);
+}
+.web-btn{
+    font-family: monospace;
+    padding: 10px 5px;
+}
+.data-collection-img{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(255, 255, 255, 1);
+    
+}
+.data-collection{
+    font-family: monospace;
+    text-align: center;
+    margin-right: 440px;
+    display: block;
+    padding-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    
+}
+.data-description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.group-4{
+    position: absolute;
+    margin-left: 500px;
+    margin-bottom: 450px;
+    
+}
+.data-btn{
+    font-family: monospace;
+    padding: 10px 5px;
+}
+/* Inspiration Video Part */
+.inspiration{
+    font-family: monospace;
+    padding: 30px 120px;
+    justify-content: space-between;
+}
+.inspiration-title{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+.inspiration-description{
+    text-align: center;
+}
+.video{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1040px;
+    height: 677px;
+    border-radius: 7px;
+    border: 5px solid rgba(169, 178, 176, 0.807);
+    box-shadow: 10px 10px rgb(226, 221, 221);
+    
+}

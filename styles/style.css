@@ -1,5 +1,5 @@
 
-/* Banner styles */
+/* Banner Styles */
 
 .banner{
     background-image: url('../assets/Hero-bg.png');
@@ -54,7 +54,7 @@
     border-radius: 5px;
     font-family: monospace;
 }
-/* why web development sector */
+/* why web development sector Styles */
 
 .full-second-part{
     border-radius: 10px;
@@ -64,12 +64,17 @@
     margin: 80px 70px;
 }
 .second-part-title{
+    font-family: monospace;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 .second-title{
-    font-weight: bolder;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
 }
 .coding{
     font-family: monospace;
@@ -101,14 +106,12 @@
 
 
 .coding-btn{
-    padding: 10px 5px;
     font-family: monospace;
-    align-items: center;
+    padding: 10px 5px;
 }
 .web-system{
     font-family: monospace;
     text-align: center;
-    /* margin-right: 20px; */
     padding-top: 20px;
     margin-bottom: 40px;
     margin-left: 350px;
@@ -166,16 +169,18 @@
     font-family: monospace;
     padding: 10px 5px;
 }
-/* Inspiration Video Part */
+/* Inspiration Video Part Styles */
 .inspiration{
     font-family: monospace;
     padding: 30px 120px;
     justify-content: space-between;
 }
 .inspiration-title{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
     text-align: center;
-    margin-top: 40px;
-    font-weight: bolder;
 }
 .inspiration-description{
     text-align: center;
@@ -189,4 +194,57 @@
     border: 5px solid rgba(169, 178, 176, 0.807);
     box-shadow: 10px 10px rgb(226, 221, 221);
     
+}
+/* Current Target Part Styles */
+.section-title{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.targets-container{
+    font-family: monospace;
+    display: flex;
+    gap: 24px;
+}
+.target-1{
+    font-family: monospace;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 76, 30, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.target-2{
+    padding: 50px;
+    font-family: monospace;
+    border-radius: 5px;
+    background-color: rgba(0, 76, 232, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.target-3{
+    font-family: monospace;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 223, 0, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.btn-html{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: rgb(182, 215, 214);
+}
+.targets{
+    padding: 50px 100px;
 }

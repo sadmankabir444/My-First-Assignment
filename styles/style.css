@@ -1,3 +1,23 @@
+/* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    font-family: monospace;
+}
+.nav-title{
+    font-size: 20px;
+}
+.nav-anchor{
+    padding-top: 25px;
+}
+nav .nav-btn{
+    font-family: monospace;
+    background-color: aqua;
+    padding: 6px 3px;
+    
+}
+
 
 /* Banner Styles */
 

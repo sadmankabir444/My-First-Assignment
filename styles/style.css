@@ -192,7 +192,7 @@
     height: 677px;
     border-radius: 7px;
     border: 5px solid rgba(169, 178, 176, 0.807);
-    box-shadow: 10px 10px rgb(226, 221, 221);
+    box-shadow: 7px 8px rgb(238, 234, 234);
     
 }
 /* Current Target Part Styles */
@@ -291,4 +291,26 @@
 .support-submit{
     font-family: monospace;
     padding: 3px 10px;
+}
+/* Footer Section Styles */
+.footer-box{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 135px;
+    padding-bottom: 20px;
+    background-color: rgba(171, 202, 216, 0.309);
+}
+.footer-title{
+    font-family: monospace;
+    color: rgba(13, 19, 33, 1);
+    /* margin-top: 30px; */
+    padding-top: 18px;
+}
+.footer-content{
+    padding-top: 20px;
+    padding-left: 580px;
+}
+.footer-1, .footer-2, .footer-3{
+    padding: 0px 8px;
 }
